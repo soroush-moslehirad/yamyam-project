@@ -8,19 +8,13 @@
  * Designed and built with all the love in the world by @mdo and @fat.
  */
 /*! normalize.css v2.1.0 | MIT License | git.io/normalize */
-
 @font-face {
-    font-family: MyFont;
-    src: url('/fonts/BKoodakBold.afm');
-    src: url('/fonts/BKoodakBold.eot');
-    src: url('/fonts/BKoodakBold.svg');
-    src: url('/fonts/BKoodakBold.ttf');
-    src: url('/fonts/BKoodakBold.woff');
+    font-family: 'iransansMain';
+    src: url('/fonts/IRANSansWeb.ttf') format('embedded-opentype'), url('/fonts/IRANSansWeb_Bold.ttf') format('embedded-opentype'), url('/fonts/IRANSansWeb_Light.ttf') format('embedded-opentype'), url('/fonts/IRANSansWeb_Medium.ttf') format('embedded-opentype'), url('/fonts/IRANSansWeb_UltraLight.ttf') format('embedded-opentype');
 }
 
-
 h1,h2,h3,p,span,textarea,a {
-    font-family: MyFont !important;
+    font-family: iransansMain !important;
 }
 
 article,
@@ -56,6 +50,7 @@ html {
 }
 body {
   margin: 0;
+  font-family:iransansMain;
 }
 a:focus {
   outline: thin dotted;
@@ -273,7 +268,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", iransansMain, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;

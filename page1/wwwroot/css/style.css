@@ -1,34 +1,24 @@
-/*
-  Theme Name: NewBiz
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 
 @font-face {
-    font-family: iransans;
-    src: url('../lib/font-awesome/fonts/IRANSansWeb.ttf') format('truetype'), url('../lib/font-awesome/fonts/IRANSansWeb.eot') format('embedded-opentype'), url('../lib/font-awesome/fonts/IRANSansWeb.woff') format('woff'), url('../lib/font-awesome/fonts/IRANSansWeb.woff2') format('woff2');
+    font-family: 'iransansMain';
+    src: url('/fonts/IRANSansWeb.ttf') format('embedded-opentype') ,  url('/fonts/IRANSansWeb_Bold.ttf') format('embedded-opentype') , url('/fonts/IRANSansWeb_Light.ttf') format('embedded-opentype'), url('/fonts/IRANSansWeb_Medium.ttf') format('embedded-opentype'), url('/fonts/IRANSansWeb_UltraLight.ttf') format('embedded-opentype');
 }
 
 * {
-    font-family: iransans;
+    font-family: iransansMain;
 }
 
 body {
+    font-family: iransansMain;
+    text-align: center;
     background: #fff;
     color: #444;
-    font-family: "iransans";
-    text-align: center;
 }
 
 a {
     color: #007bff;
     transition: 0.5s;
-    font-family: "iransans";
+    font-family: iransansMain;
 }
 
 a:hover,
@@ -42,7 +32,7 @@ a:focus {
 p {
     padding: 0;
     margin: 0 0 30px 0;
-    font-family: "iransans";
+    font-family: iransansMain;
     font-size: 15px;
 }
 
@@ -52,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "iransans";
+    font-family: iransansMain;
     font-weight: 300;
     margin: 0 0 40px 0;
     padding: 0;

@@ -6,7 +6,10 @@ a.navbar-brand {
   text-align: center;
   word-break: break-all;
 }
-
+@font-face {
+    font-family: 'iransansMain';
+    src: url('/fonts/IRANSansWeb.ttf') format('embedded-opentype'), url('/fonts/IRANSansWeb_Bold.ttf') format('embedded-opentype'), url('/fonts/IRANSansWeb_Light.ttf') format('embedded-opentype'), url('/fonts/IRANSansWeb_Medium.ttf') format('embedded-opentype'), url('/fonts/IRANSansWeb_UltraLight.ttf') format('embedded-opentype');
+}
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
@@ -112,7 +115,8 @@ span.price {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+    font-size: 14px;
+    font-family: iransansMain;
 }
 @media (min-width: 768px) {
   html {
@@ -139,18 +143,22 @@ button.accept-policy {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+    font-family: iransansMain;
 }
 
+
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: iransansMain;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+    font-family: iransansMain;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
 }
